@@ -1,4 +1,7 @@
 /* Comon css stsrt */
+:root{
+	--text-color: #2d2d2d;
+}
 *{
     margin: 0;
     padding: 0;
@@ -28,7 +31,7 @@ body{
 /* comon css end  */
 /* Header css start */
 header .manu a{
-    color: #2d2d2d;
+    color: var(--text-color);
     margin: 0 17px;
     font-size: 20px;
 }
@@ -36,3 +39,71 @@ nav{
     padding: 24px 0;
 }
 /* Header css end */
+/* Banar css start */
+.text{
+    width: 500px;
+    height: auto;
+    padding-top: 50px;
+}
+.banar .text h3{
+    font-weight: 600;
+    font-size: 20px;
+    color: var(--text-color);
+}
+.banar .text h2{
+    font-weight: 600;
+font-size: 60px;
+margin: 20px 0;
+color: var(--text-color);
+}
+.banar .text p{
+    font-weight: 400;
+font-size: 18px;
+line-height: 159%;
+color: var(--text-color);
+}
+button{
+    padding: 15px 40px;
+width: 133px;
+height: 49px;
+background-color: var(--text-color);
+color: #fff;
+font-size: 15px;
+margin-top: 31px;
+}
+.banar .images img{
+   margin-left: 193px;
+    margin-top: 51px;
+    height: 380px;
+
+}
+/* Banar css end */
+/* work section start */
+.work h3{
+    text-align: center;
+    margin-top: 22px;
+}
+
+.work .item{
+    width: 162px;
+    margin: 30px 0;
+height: 235px;
+border: 1px solid black;
+
+
+}
+.work .item h4{
+    font-weight: 600;
+    font-size: 18px;
+    margin: 12px 0;
+    color: var(--text-color);
+}
+.work .item p{
+    font-weight: 600;
+    font-size: 9px;
+    color: var(--text-color);
+
+}
+/* work section end */
+
+
