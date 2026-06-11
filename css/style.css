@@ -78,20 +78,48 @@ margin-top: 31px;
 
 }
 /* Banar css end */
+/* logo css start */
+.iteam{
+    padding: 47px 0;
+}
+.iteam.samsung{
+    padding-top: 65px;
+}
+/* logo css end */
+
 /* work section start */
+/* product section start */
+#Product .product-img{
+    width: 32%;
+    text-align: center;
+}
+#Product .product-img img{
+    padding: 64px 0 42px;
+    
+}
+#Product .product-img h3{
+    color: var(--text-color);
+    padding: 0 0 12px;
+}
+#Product .product-img p{
+    padding-bottom: 64px;
+}
+/* product section end */
+
 .work h3{
     text-align: center;
     margin-top: 22px;
 }
 
-.work .item{
-    width: 162px;
+.work .item {
+    width: 32%;
     margin: 30px 0;
-height: 235px;
-
-
 
 }
+.work .item img{
+    width: 100%;
+}
+
 .work .item h4{
     font-weight: 600;
     font-size: 18px;
@@ -105,5 +133,63 @@ height: 235px;
 
 }
 /* work section end */
+/* testimonial section start */
+#testimonial h3{
+    padding-bottom: 42px;
+}
+#testimonial .card{
+    width: 32%;
+    background-color: #f3f3f3;
+    padding: 42px;
+    margin-bottom: 20px;
+}
+#testimonial .card p{
+font-weight: 500;
+font-size: 16px;
+line-height: 150%;
+padding-bottom: 40px;
+}
+#testimonial .card .name p{
+    margin-left: 50px;
+    padding-bottom: 0;
+}
+/* testimonial section end */
+/* Fotter section start */
+footer .text{
+    width: 50%;
+}
+footer .text h4{
+    font-weight: 600;
+font-size: 32px;
+line-height: 131%;
+color: var(--text-color);
+padding: 42px 0 24px;
+}
+footer .text p{
+    font-weight: 400;
+font-size: 15px;
+line-height: 159%;
+color: var(--text-color);
+padding-bottom: 42px;
+}
+footer .text .icon a{
+    margin-left: 20px;
+   padding-bottom: 75px;
+}
+form{
+    padding: 110px 0 0 140px;
+}
+form input{
+width: 420px;
+height: 59px;
+    display: block;
+    margin-bottom: 20px;
+    background-color: #f3f3f3;
+}
+form button{
+    margin-top: 0;
+}
+
+/* Fotter section end */
 
 
