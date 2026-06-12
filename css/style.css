@@ -149,6 +149,9 @@ font-size: 16px;
 line-height: 150%;
 padding-bottom: 40px;
 }
+#testimonial .card img.star{
+    height: 10px;
+}
 #testimonial .card .name p{
     margin-left: 50px;
     padding-bottom: 0;
