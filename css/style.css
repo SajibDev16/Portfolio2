@@ -152,10 +152,15 @@ padding-bottom: 40px;
 #testimonial .card img.star{
     height: 20px;
 }
+#testimonial .card .name{
+    margin-top: -22px;
+    margin-left: 10px;
+}
 #testimonial .card .name p{
     margin-left: 50px;
     padding-bottom: 0;
 }
+
 /* testimonial section end */
 /* Fotter section start */
 footer .text{
@@ -191,6 +196,10 @@ height: 59px;
 }
 form button{
     margin-top: 0;
+   
+}
+form button a{
+    color: #fff;
 }
 
 /* Fotter section end */
